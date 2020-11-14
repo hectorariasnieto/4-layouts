@@ -1,0 +1,21 @@
+@import "main.css";
+@import "reset.css";
+
+:root{
+  --main-color: #666666;
+  --secondary-color: rgba(0,0,0,.3);
+  --background-color: white;
+  --background-dark: rgba(0,0,0,.1);
+
+  --s: 0.5rem;
+  --m: 0.75rem;
+  --l: 1rem;
+
+  --text-font: 'Open Sans', sans-serif;
+  --title-font: 'Open Sans', sans-serif;
+
+  --shadow: 1px 6px 20px 0px rgba(0,0,0,.7);
+  --round-border: 9999px;
+
+
+}
