@@ -3,9 +3,34 @@ body {
   height: 100%;
   width: 100%;
 }
+.wrapper{
+  width: var(--desktop-width);
+}
+
+.navbar{
+  box-shadow: var(--shadow);
+  display: flex;
+  position: fixed;
+  height: 3rem;
+  width:100%;
+}
+
+.navbar__logo{
+  background-color: var(--background-color);
+  border-radius: var(--round-border);
+  width: 2rem;
+  height: 2rem;
+}
+
+.navbar__searchbar{
+
+}
+
+.navbar__login{
+
+}
 
 .box{
   background-color: var(--secondary-color);
-  padding: 100px;
 }
 
