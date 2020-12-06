@@ -1,0 +1,48 @@
+/* general styles */
+
+body {
+  font-family: Helvetica, sans-serif;
+  line-height: 1;
+  height: 100%;
+  width: 100%;
+}
+
+.wrapper{
+  width: var(--desktop-width);
+}
+
+.navbar{
+  box-shadow: var(--shadow);
+  display: flex;
+  position: fixed;
+  width:100%;
+}
+
+.footer{
+
+}
+
+.box{
+  background-color: var(--secondary-color);
+}
+
+
+/* specific styles */
+.navbar__logo{
+  background-color: var(--secondary-color);
+  border-radius: var(--round-border);
+  width: 3rem;
+  height: 3rem;
+  margin: .7rem;
+}
+
+.navbar__searchbar{
+
+}
+
+.navbar__login{
+
+}
+
+
+
