@@ -14,14 +14,19 @@ h1 {
   font-size:3rem;
   font-weight: bold;
 }
-h2 {
-  font-size:2rem;
+p {
+  font-size:1.5rem;
   font-weight: 100;
+}
+.justify{
+  text-align: justify;
+  padding: var(--l)
 }
 
 .wrapper{
   display:flex;
   justify-content: space-around;
+
 }
 .fullwidth{
   width: 100%;
@@ -45,22 +50,17 @@ h2 {
   align-items: center;
 }
 
-.boxes {
-  display: grid;
-
-}
-
 .footer{
 
 }
 
-.box{
-  background-color: var(--secondary-color);
-  margin: var(--l);
-}
 .cbox{
   background-color: var(--secondary-color);
   height: 100px;
+  width: 100px;
+  margin: var(--l);
+}
+.cbox-text{
   width: 100px;
   margin: var(--l);
 }
@@ -76,11 +76,12 @@ h2 {
   justify-content: flex-start;
 }
 .right{
-  justify-content: flex-end;
+  left: -100px;
 }
 
 .main-content{
   flex-basis:80%;
+  max-width: 1024px;
 }
 
 /* specific styles */
@@ -95,10 +96,9 @@ h2 {
 
 .navbar__searchbar{
   display: grid;
-  grid-template-columns: 2fr 4fr 1fr;
-
-
+  grid-template-columns: 1fr 1fr;
 }
+
 .search-box{
   background-color: var(--secondary-color);
   border-radius: var(--round-border);
@@ -109,9 +109,10 @@ h2 {
 .navbar__login{
   background-color: var(--secondary-color);
   border-radius: var(--round-border);
-  height: 2.4rem;
   margin: var(--m);
+  padding: var(--m) 2rem;
+  border: 0;
 }
-
-
-
+.end{
+  justify-self: end;
+}

@@ -1,5 +1,6 @@
 @import "reset.css";
 @import "main.css";
+@import "grid.css";
 
 :root{
   --main-color: #333333;

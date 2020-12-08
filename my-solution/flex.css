@@ -1,0 +1,17 @@
+.boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.boxes-left {
+  display: flex;
+  max-width: 512px;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.item-0 { height: 14%; }
+.item-1 { width: 40%; }
+.item-2 { width: 50%; }
+.item-3 { width: 60%; }
+.item-4 { width: 20%; }
+.item-5 { width: 30%; }
