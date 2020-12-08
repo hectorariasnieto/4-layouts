@@ -14,9 +14,17 @@ h1 {
   font-size:3rem;
   font-weight: bold;
 }
+h2{
+  font-size:1.8rem;
+  padding:var(--l) 0;
+}
 p {
   font-size:1.5rem;
   font-weight: 100;
+}
+.narrow{
+  max-width:75%;
+  margin:0 auto;
 }
 .justify{
   text-align: justify;
@@ -81,13 +89,21 @@ p {
 }
 
 .footer{
-
+  display: grid;
+  grid-template-columns: 6fr repeat(4, 1fr);
+  margin: 2rem auto;
 }
 
 .cbox{
   background-color: var(--secondary-color);
   height: 100px;
   width: 100px;
+  margin: var(--l);
+}
+.img-box{
+  background-color: var(--secondary-color);
+  height: 150px;
+  width: 150px;
   margin: var(--l);
 }
 .cbox-text{
@@ -144,4 +160,20 @@ p {
 }
 .end{
   justify-self: end;
+}
+
+.button-xl{
+  background-color: var(--secondary-color);
+  border-radius: var(--round-border);
+  margin: var(--m);
+  padding: 2rem 3.5rem;
+  border: 0;
+  font-size:1.5rem;
+  margin:3rem;
+
+}
+
+footer li{
+  margin: var(--s) var(--m);
+  list-style: disc;
 }
