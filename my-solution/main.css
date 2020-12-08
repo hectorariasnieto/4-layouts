@@ -1,3 +1,6 @@
+/* temp styles */
+
+
 /* general styles */
 
 body {
@@ -7,15 +10,44 @@ body {
   width: 100%;
 }
 
-.wrapper{
-  width: var(--desktop-width);
+h1 {
+  font-size:3rem;
+  font-weight: bold;
+}
+h2 {
+  font-size:2rem;
+  font-weight: 100;
 }
 
+.wrapper{
+  display:flex;
+  justify-content: space-around;
+}
+.fullwidth{
+  width: 100%;
+  text-align:center;
+}
+
+.padding{
+  padding: 2rem 0;
+}
 .navbar{
   box-shadow: var(--shadow);
-  display: flex;
-  position: fixed;
+  display: grid;
+ /* position: fixed; */
   width:100%;
+}
+
+.carousel{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.boxes {
+  display: grid;
+
 }
 
 .footer{
@@ -24,24 +56,61 @@ body {
 
 .box{
   background-color: var(--secondary-color);
+  margin: var(--l);
+}
+.cbox{
+  background-color: var(--secondary-color);
+  height: 100px;
+  width: 100px;
+  margin: var(--l);
 }
 
+.dark-background{
+  background-color: var(--background-dark);
+}
+.lateral{
+  flex-basis:20%;
+}
+
+.left{
+  justify-content: flex-start;
+}
+.right{
+  justify-content: flex-end;
+}
+
+.main-content{
+  flex-basis:80%;
+}
 
 /* specific styles */
 .navbar__logo{
   background-color: var(--secondary-color);
   border-radius: var(--round-border);
-  width: 3rem;
-  height: 3rem;
-  margin: .7rem;
+  width: 2.4rem;
+  height: 2.4rem;
+  margin: var(--m);
+
 }
 
 .navbar__searchbar{
+  display: grid;
+  grid-template-columns: 2fr 4fr 1fr;
 
+
+}
+.search-box{
+  background-color: var(--secondary-color);
+  border-radius: var(--round-border);
+  height: 2.4rem;
+  margin: var(--m);
 }
 
 .navbar__login{
-
+  background-color: var(--secondary-color);
+  border-radius: var(--round-border);
+  height: 2.4rem;
+  margin: var(--m);
 }
 
 

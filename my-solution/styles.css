@@ -3,13 +3,14 @@
 
 :root{
   --main-color: #333333;
-  --secondary-color: #666666;
+  --secondary-color: #999999;
   --background-color: white;
   --background-dark: rgba(0,0,0,.1);
 
   --s: 0.5rem;
   --m: 0.75rem;
   --l: 1rem;
+  --xl: 2rem;
 
   --text-font: 'Open Sans', sans-serif;
   --title-font: 'Open Sans', sans-serif;
@@ -20,4 +21,3 @@
   --desktop-width: 1024px;
 }
 
-.button
